@@ -1,0 +1,1 @@
+This repository demonstrates a subtle runtime error in Haskell related to using the `sort` function from `Data.List` on lists containing elements of different types.  While the code compiles cleanly, it will throw an exception at runtime if the list is not homogeneous.  The `bugSolution.hs` provides a robust solution.
